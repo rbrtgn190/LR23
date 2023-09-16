@@ -1,0 +1,11 @@
+[t23]
+FileName1=t23_959169513.json
+URL1=http://nimbusserver.aos.com:8002/order/api/v1/carts/959169513
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t23_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

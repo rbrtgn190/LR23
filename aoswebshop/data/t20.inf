@@ -1,0 +1,17 @@
+[t20]
+FileName1=t20.htm
+URL1=http://nimbusserver.aos.com:8000/app/views/product-page.html
+Total=4
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_19.xml
+FileName2=t20_review_right.png
+URL2=http://nimbusserver.aos.com:8000/css/images/review_right.png
+FileName3=t20_reviewUser.png
+URL3=http://nimbusserver.aos.com:8000/css/images/reviewUser.png
+FileName4=t20_review_Left_disabled.png
+URL4=http://nimbusserver.aos.com:8000/css/images/review_Left_disabled.png
+[ProtocolInfo]
+ProtocolId=QTWeb

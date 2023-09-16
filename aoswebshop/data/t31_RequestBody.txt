@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"somewhere\",\"addressLine2\":\"\",\"city\":\"Paris\",\"coun"
+"try\":\"au\",\"postalCode\":75000,\"state\":\"state\"},\"secustomerName\":\"User One\",\"secus"
+"tomerPhone\":123456,\"senumberOfProducts\":1,\"setransactionType\":\"SHIPPING_COST\",\"session"
+"Id\":\"23FCF5096BBD7B33A0986E31811F066A\"}"

@@ -1,0 +1,13 @@
+POST /order/api/v1/carts/959169513/product/25/color/55CDD5?quantity=1 HTTP/1.1
+Host: nimbusserver.aos.com:8002
+Connection: keep-alive
+Content-Length: 42
+Accept: application/json, text/plain, */*
+Authorization: Basic dXNlcjU6UGFzc3dvcmQx
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://nimbusserver.aos.com:8000
+Referer: http://nimbusserver.aos.com:8000/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+

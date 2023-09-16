@@ -1,0 +1,9 @@
+HTTP/1.1 204 No Content
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Headers: content-type,soapaction
+Access-Control-Max-Age: 86400
+Server: Microsoft-NetCore/2.0
+Date: Sat, 16 Sep 2023 09:05:26 GMT
+Content-Length: 0
+

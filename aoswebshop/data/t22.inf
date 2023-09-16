@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22.json
+URL1=http://nimbusserver.aos.com:8002/order/api/v1/carts/959169513/product/25/color/55CDD5?quantity=1
+Total=1
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=t22_RequestBody.txt
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_21.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

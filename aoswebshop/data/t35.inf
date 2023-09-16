@@ -1,0 +1,17 @@
+[t35]
+FileName1=t35.html
+URL1=http://nimbusserver.aos.com:7001/accountservice/ws/GetCountriesRequest
+Total=4
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_34.xml
+FileName2=t35_User.jpg
+URL2=http://nimbusserver.aos.com:8000/css/images/User.jpg
+FileName3=t35_Check.png
+URL3=http://nimbusserver.aos.com:8000/css/images/Check.png
+FileName4=t35_Shipex.png
+URL4=http://nimbusserver.aos.com:8000/css/images/Shipex.png
+[ProtocolInfo]
+ProtocolId=QTWeb

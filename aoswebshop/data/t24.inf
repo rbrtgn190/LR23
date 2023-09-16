@@ -1,0 +1,15 @@
+[t24]
+FileName1=t24.htm
+URL1=http://nimbusserver.aos.com:8000/app/views/shoppingCart.html
+Total=3
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_23.xml
+FileName2=t24_Master_credit.png
+URL2=http://nimbusserver.aos.com:8000/css/images/Master_credit.png
+FileName3=t24_SafePay.png
+URL3=http://nimbusserver.aos.com:8000/css/images/SafePay.png
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t27]
+FileName1=t27.html
+URL1=http://nimbusserver.aos.com:7001/accountservice/ws/GetAccountByIdNewRequest
+Total=1
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_26.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

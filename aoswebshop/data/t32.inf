@@ -1,0 +1,11 @@
+[t32]
+FileName1=t32.html
+URL1=http://nimbusserver.aos.com:7001/accountservice/ws/GetAccountPaymentPreferencesRequest
+Total=1
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_31.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
