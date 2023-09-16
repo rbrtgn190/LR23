@@ -1,3 +1,43 @@
+## DevWeb
+# DevWeb results folders
+results/
+# DevWeb codegen folder
+codegen/
+# DevWeb log
+lr?_uploader.log
+
+*.sdf
+combined_*.c
+ThumbnailsCache.tmp
+*.bak
+pre_cci.c
+*.ci
+*.idx
+*.c.pickle
+mdrv_cmd.txt
+options.txt
+
+## LOGS
+*.log
+
+
+## VuGen Results folder
+result*/
+*.idx
+*.bak
+pre_cci.c
+combined_*
+*.ci
+
+## Truclient
+resultSnap
+replay.har
+shunra.shunra
+
+
+
+
+
 # Prerequisites
 *.d
 
