@@ -1,6 +1,8 @@
 Home()
 {
 
+	lr_start_transaction("1_Home");
+
 	web_set_user("{userName}", 
 		lr_unmask("6505731fe3d4996811269c5eb6"), 
 		"{host_nimbusserver_aos_com_8002}");
@@ -120,5 +122,9 @@ Home()
 		"Mode=HTML", 
 		LAST);
 
+	lr_end_transaction("1_Home", LR_AUTO);
+
+	lr_think_time(7);
+	
 	return 0;
 }

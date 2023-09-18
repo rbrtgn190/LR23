@@ -1,10 +1,12 @@
 Shop()
 {
 
+	lr_start_transaction("4_Shop");
+
 	web_add_auto_header("Accept-Language", 
 		"en-US,en;q=0.9");
 
-	lr_think_time(35);
+	//lr_think_time(35);
 
 	web_url("959169513_3",
 		"URL=http://{host_nimbusserver_aos_com_8002}/order/api/v1/carts/{userId}",
@@ -153,7 +155,7 @@ Shop()
 		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetCountriesRequest xmlns=\"com.advantage.online.store.accountservice\"></GetCountriesRequest></soap:Body></soap:Envelope>", 
 		LAST);
 
-	lr_think_time(5);
+	//lr_think_time(5);
 
 	web_custom_request("UpdateSafePayMethodRequest", 
 		"URL=http://{host_nimbusserver_aos_com_7001}/accountservice/ws/UpdateSafePayMethodRequest", 
@@ -208,5 +210,9 @@ Shop()
 		"Mode=HTML",
 		LAST);
 
+	lr_end_transaction("4_Shop", LR_AUTO);
+
+	lr_think_time(8);
+	
 	return 0;
 }

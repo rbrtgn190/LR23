@@ -72,7 +72,7 @@ Shop=cci
 Logout=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="1_Home__*delimiter*__2_Login__*delimiter*__3_Browse__*delimiter*__4_Shop__*delimiter*__5_Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -84,3 +84,9 @@ IsDurationIndefinite=0
 NumIterationsUntilCompletion=1
 IterationFromRTS=0
 NumIterationIndefinitely=1
+[Transactions]
+1_Home=
+2_Login=
+3_Browse=
+4_Shop=
+5_Logout=

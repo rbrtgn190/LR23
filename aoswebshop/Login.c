@@ -1,10 +1,12 @@
 Login()
 {
 
+	lr_start_transaction("2_Login");
+
 	web_add_auto_header("Accept-Language", 
 		"en-US,en;q=0.9");
 
-	lr_think_time(25);
+	//lr_think_time(5);
 
 	web_url("FacebookLogo.png", 
 		"URL=http://{host_nimbusserver_aos_com_8000}/css/images/FacebookLogo.png", 
@@ -14,7 +16,7 @@ Login()
 		"Snapshot=t10.inf", 
 		LAST);
 
-	lr_think_time(7);
+	//lr_think_time(7);
 
 	web_custom_request("AccountLoginRequest", 
 		"URL=http://{host_nimbusserver_aos_com_7001}/accountservice/ws/AccountLoginRequest", 
@@ -87,5 +89,9 @@ RuleName ='jsessionID'*/
 
 //	lr_output_message("Login : sessionId = %s", lr_eval_string("{sessionId}"));
 
+	lr_end_transaction("2_Login", LR_AUTO);
+
+	lr_think_time(10);
+	
 	return 0;
 }
