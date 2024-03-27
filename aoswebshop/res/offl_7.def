@@ -1,0 +1,22 @@
+[Graph definition]
+count=1
+GraphTitle=None : Total Packet Loss
+DataPointLabel_1=offline_datapoint_7
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=None : Total Packet Loss
+GraphGroupMenuTitle=Packet Loss
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=WAN_EMULATION_CLOUD_PACKET_LOSS
+DataPointDescr_1=Lists the total number of packets lost since the start of the test. Packet loss occurs when data packets fail to reach their destination. It can happen due to gateway overload, signal degradation, channel congestion and faulty hardware software.
+[Shunra]
+ShunraLocation=None
+ShunraShapeID=WANCloud
+ShunraMonitorID=PACKETS_LOSS_TOTAL

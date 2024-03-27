@@ -1,0 +1,22 @@
+[Graph definition]
+count=1
+GraphTitle=None : Packet Loss %
+DataPointLabel_1=offline_datapoint_2
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=None : Packet Loss %
+GraphGroupMenuTitle=Packet Loss
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=WAN_EMULATION_CLOUD_PACKET_LOSS
+DataPointDescr_1=Percentage of packet loss in the network for the last second
+[Shunra]
+ShunraLocation=None
+ShunraShapeID=WANCloud
+ShunraMonitorID=PACKET_LOSS_PERCENT
