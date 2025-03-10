@@ -21,9 +21,6 @@
     <FileEntry Name="combined_aoswebshop.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="212783460440.idx" Filter="1" />
-    <FileEntry Name="21278346044_1pG.733.idx" Filter="1" />
-    <FileEntry Name="21278346044_feo.581.idx" Filter="1" />
-    <FileEntry Name="aosweb3.prm.bak" Filter="1" />
     <FileEntry Name="aoswebshop.c.pickle" Filter="1" />
     <FileEntry Name="aoswebshop.ci" Filter="1" />
     <FileEntry Name="aoswebshop.prm.bak" Filter="1" />
@@ -32,9 +29,6 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
-    <FileEntry Name="mdrvayR.875.log" Filter="1" />
-    <FileEntry Name="mdrvNkd.9.log" Filter="1" />
-    <FileEntry Name="mdrvzhs.791.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
