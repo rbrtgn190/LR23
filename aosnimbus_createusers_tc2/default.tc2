@@ -1,0 +1,4680 @@
+{
+  "meta": {
+    "engineVersion": "2025.1.0.174",
+    "platform": "Chrome 133.0.6943.143",
+    "timestamp": "Mon Mar 10 2025 15:20:46 GMT+0100 (Central European Standard Time)"
+  },
+  "default": {
+    "level": 1,
+    "actions": [
+      {
+        "id": "00000000-0000-0000-0000-Init",
+        "name": "Init",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-Action",
+        "name": "Action",
+        "type": 1,
+        "steps": [
+          {
+            "id": "1a25a5f1-18ab-8fbf-3a33-34cfd3d9bbd0",
+            "type": 3,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "location",
+                "type": 1,
+                "value": "http://nimbusserver.aos.com:8000/"
+              }
+            ],
+            "action": 100,
+            "recDuration": 6
+          },
+          {
+            "id": "4a38e726-09b4-c910-6d6e-9990c4c34022",
+            "type": 6,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "steps": [
+              {
+                "id": "c56b8f7c-0fcb-38fa-0d09-5e53777e6548",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 2,
+                "testObjectsRef": [
+                  "5e062b68-f0ea-43d7-7bec-a4d5e057cfb5"
+                ],
+                "arguments": [
+                  {
+                    "name": "button",
+                    "type": 1,
+                    "value": "1"
+                  },
+                  {
+                    "name": "xCoordinate",
+                    "type": 1,
+                    "value": "14"
+                  },
+                  {
+                    "name": "yCoordinate",
+                    "type": 1,
+                    "value": "13"
+                  },
+                  {
+                    "name": "hasCtrlKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasAltKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasShiftKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "useCoordinates",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "action": 1,
+                "recDuration": 2
+              },
+              {
+                "id": "c3cd7c5c-4e4a-7ee1-929c-b65400ce5c3d",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "75102ca5-a51f-214e-a6c3-c8973ab53d5c",
+                  "7214abe9-2b10-310a-5f4f-25ec46723751"
+                ],
+                "arguments": [
+                  {
+                    "name": "text",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "ordinal",
+                    "type": 1,
+                    "value": "3"
+                  }
+                ],
+                "action": 10,
+                "recDuration": 2
+              },
+              {
+                "id": "dbe5046d-e697-ef80-4e01-bc104c88f6b3",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "75102ca5-a51f-214e-a6c3-c8973ab53d5c"
+                ],
+                "arguments": [
+                  {
+                    "name": "text",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "ordinal",
+                    "type": 1,
+                    "value": "3"
+                  }
+                ],
+                "action": 10,
+                "recDuration": 2
+              }
+            ],
+            "activeStep": 0,
+            "recDuration": 2
+          },
+          {
+            "id": "996796c4-222d-134b-f4cb-bd58e8f70766",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 3,
+            "testObjectsRef": [
+              "300f26af-d835-f8d8-e6fb-ebbb4f1b0696"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "171"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "10"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1,
+            "recDuration": 2
+          },
+          {
+            "id": "1f0192ba-2926-f6dd-046c-ddd81d64db54",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "72c79ff9-4f85-c993-822a-2ce2ecf8b677"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "30"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "16"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1,
+            "recDuration": 2
+          },
+          {
+            "id": "ed15616b-b3a9-7c3e-5c73-e4e40b4fbdf2",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "breakpoint": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "5648d5c3-5856-31ff-3e45-3f8c64c1a00e"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 3,
+                "value": "Username"
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5,
+            "recDuration": 5
+          },
+          {
+            "id": "d2611549-cdb5-eb21-ac7f-b8e7403f0359",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "7d585f33-874e-b357-a114-17b2b053de02"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "18"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "19"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1
+          },
+          {
+            "id": "204438b4-8e18-9811-28c4-1abfa8407f4e",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "breakpoint": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "a4de9846-9b9d-7906-0284-9345dfc2ae10"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 3,
+                "value": "Username"
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5,
+            "recDuration": 10
+          },
+          {
+            "id": "2d62580f-ac93-ad9f-8f55-eff58c32db10",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "3e93e967-1f80-0f86-37c0-1ba1d89a3339"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "31"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "14"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1,
+            "recDuration": 1
+          },
+          {
+            "id": "09420799-277e-d6cf-abb5-2a0ee56fcaff",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "4f6bd93b-a1f0-49a5-d7b4-da6227dc9769"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 1,
+                "value": "67cef399af94229120b166fd99",
+                "encrypted": true
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5,
+            "recDuration": 6
+          },
+          {
+            "id": "ec2fae18-1084-d2ea-9da7-c31c0410092b",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "495298a2-3d06-38f7-03ea-c105c8d7e7f1"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "14"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "12"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1
+          },
+          {
+            "id": "542967f0-c319-1b6d-db8d-00968df1fd01",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "0dc65691-efb6-7385-35ca-93ac176ab1be"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 1,
+                "value": "67cef399af94229120b166fd99",
+                "encrypted": true
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5,
+            "recDuration": 5
+          },
+          {
+            "id": "7d30ebd7-98de-f2bc-6734-6b015f9c4bd5",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "97f9f184-d98c-4937-e55b-60ea479f7aa2"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "20"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "17"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1,
+            "recDuration": 1
+          },
+          {
+            "id": "26b58363-34aa-691b-8ef5-c4bfec32c3d5",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "2282d8da-8006-e29b-5379-66b6d9e235f4"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 1,
+                "value": "user"
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5,
+            "recDuration": 2
+          },
+          {
+            "id": "a53ed990-8fc0-08de-8967-13edce3f06c6",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "6e6e498b-4d18-256b-dc82-7568e94fcb0a"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "18"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "5"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1
+          },
+          {
+            "id": "af842923-2f50-8d99-2290-dfa0f015b4c9",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "6b1d99ab-cf6c-b72b-6623-15986cd44ce4"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 1,
+                "value": "5user"
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5,
+            "recDuration": 10
+          },
+          {
+            "id": "d98fd7b4-0922-8aba-bdb2-8060dded3352",
+            "type": 6,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "4af00742-0b70-1302-7a49-8f8a50f1ffb2",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "7f4fedc3-2049-31f5-7bcf-dc582207340e"
+                ],
+                "arguments": [
+                  {
+                    "name": "button",
+                    "type": 1,
+                    "value": "1"
+                  },
+                  {
+                    "name": "xCoordinate",
+                    "type": 1,
+                    "value": "6"
+                  },
+                  {
+                    "name": "yCoordinate",
+                    "type": 1,
+                    "value": "8"
+                  },
+                  {
+                    "name": "hasCtrlKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasAltKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasShiftKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "useCoordinates",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "action": 1,
+                "recDuration": 2
+              },
+              {
+                "id": "fc831a83-cb36-6bc2-d505-707746f7f4cb",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "7f4fedc3-2049-31f5-7bcf-dc582207340e"
+                ],
+                "arguments": [
+                  {
+                    "name": "checked",
+                    "type": 1,
+                    "value": "true"
+                  }
+                ],
+                "action": 12,
+                "recDuration": 2
+              }
+            ],
+            "activeStep": 0,
+            "recDuration": 2
+          },
+          {
+            "id": "2cdffdbc-3663-29df-f3cc-7bf28fa79aa5",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "a54d43de-2ac4-a515-edf7-672e67063c4c"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "158"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "19"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1,
+            "recDuration": 4
+          },
+          {
+            "id": "aec0266f-3738-a0e6-b4bd-3d49b932a3df",
+            "type": 1,
+            "level": 3,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "80ecdbe3-14ad-0eb2-50ae-c631aeb51a06",
+                "type": 2,
+                "level": 3,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "c214a51b-633e-96ed-31ee-0b73b123953a"
+                ],
+                "arguments": [
+                  {
+                    "name": "hasCtrlKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasAltKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasShiftKey",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "action": 6
+              }
+            ],
+            "name": "GroupStep.Mouseover"
+          },
+          {
+            "id": "2f80fb97-d2e3-86ec-2302-438083a821f1",
+            "type": 6,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "741be742-bb68-2260-ac4b-51d040fe5c1f",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "15b8d201-36bb-1546-4e51-a257ed2a6261"
+                ],
+                "arguments": [
+                  {
+                    "name": "button",
+                    "type": 1,
+                    "value": "1"
+                  },
+                  {
+                    "name": "xCoordinate",
+                    "type": 1,
+                    "value": "14"
+                  },
+                  {
+                    "name": "yCoordinate",
+                    "type": 1,
+                    "value": "11"
+                  },
+                  {
+                    "name": "hasCtrlKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasAltKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasShiftKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "useCoordinates",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "action": 1,
+                "recDuration": 1
+              },
+              {
+                "id": "26e1e737-e1cf-e982-57ea-3ac3bcf49cda",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "75102ca5-a51f-214e-a6c3-c8973ab53d5c",
+                  "c5aab1d1-ce6f-44a3-3621-80d2535c1d20"
+                ],
+                "arguments": [
+                  {
+                    "name": "text",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "ordinal",
+                    "type": 1,
+                    "value": "3"
+                  }
+                ],
+                "action": 10,
+                "recDuration": 1
+              }
+            ],
+            "activeStep": 0,
+            "recDuration": 1
+          },
+          {
+            "id": "2ddb718a-2dba-8119-1859-fb6e93fb2bd2",
+            "type": 1,
+            "level": 3,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "0d0795fc-aebd-1d0c-5aac-54a8ba3859e0",
+                "type": 2,
+                "level": 3,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "4b04879a-7395-5e3b-4672-73e499709f24"
+                ],
+                "arguments": [
+                  {
+                    "name": "hasCtrlKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasAltKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasShiftKey",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "action": 6
+              },
+              {
+                "id": "d1af82d7-eae2-5114-9051-6e2a44fb9e19",
+                "type": 2,
+                "level": 3,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "57f7bd3a-30d9-d549-7435-03f94cd1df70"
+                ],
+                "arguments": [
+                  {
+                    "name": "hasCtrlKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasAltKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasShiftKey",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "action": 6
+              }
+            ],
+            "name": "GroupStep.Mouseover"
+          },
+          {
+            "id": "9c985c47-6147-b2f9-8334-749cd26af425",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "da1a153e-4ce5-669a-6d53-a312f3fa2159"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "24"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "14"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1
+          }
+        ]
+      },
+      {
+        "id": "00000000-0000-0000-0000-End",
+        "name": "End",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-RunLogic",
+        "name": "RunLogic",
+        "type": 2,
+        "steps": [
+          {
+            "id": "00000000-0000-0000-0000-InitBlock",
+            "type": 100,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "steps": [
+              {
+                "id": "3a401868-828a-cf20-c565-4aa55762a51a",
+                "type": 101,
+                "level": 1,
+                "disabled": false,
+                "endEvent": 2,
+                "actionName": "Init"
+              }
+            ],
+            "name": "Init Block",
+            "iteration": 1,
+            "mode": 1
+          },
+          {
+            "id": "00000000-0000-0000-0000-ActionBlock",
+            "type": 100,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "steps": [
+              {
+                "id": "05b74962-805f-2456-7f24-82e4ef1d5025",
+                "type": 101,
+                "level": 1,
+                "disabled": false,
+                "endEvent": 2,
+                "actionName": "Action"
+              }
+            ],
+            "name": "Action Block",
+            "iteration": 1,
+            "mode": 1
+          },
+          {
+            "id": "00000000-0000-0000-0000-EndBlock",
+            "type": 100,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "steps": [
+              {
+                "id": "94694a73-1b28-3ce0-baee-6dd5d595445a",
+                "type": 101,
+                "level": 1,
+                "disabled": false,
+                "endEvent": 2,
+                "actionName": "End"
+              }
+            ],
+            "name": "End Block",
+            "iteration": 1,
+            "mode": 1
+          }
+        ]
+      },
+      {
+        "id": "00000000-0000-0000-0000-EventHandler",
+        "name": "EventHandler",
+        "type": 3,
+        "steps": []
+      }
+    ],
+    "testObjects": [
+      {
+        "id": "5e062b68-f0ea-43d7-7bec-a4d5e057cfb5",
+        "name": "USER",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//a[@id=\"menuUserLink\"]/a)[1]",
+              "suggestion": [
+                "(//a[@id=\"menuUserLink\"]/a)[1]",
+                "(//a[@id=\"hrefUserIcon\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#hrefUserIcon",
+              "suggestion": [
+                "a#hrefUserIcon",
+                "a#menuUserLink>a"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#hrefUserIcon')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.6158008,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "A",
+                  "score": 0.01
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "hrefUserIcon",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "title",
+                  "value": "USER",
+                  "score": 0.3
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 7,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 31,
+                  "id": 1,
+                  "title": 6,
+                  "a/href": 35,
+                  "leaf": null
+                },
+                "secondaryScore": 0.39015609840000004,
+                "totalCandidates": 7
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "A"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "title",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "title"
+                      },
+                      {
+                        "op": "value",
+                        "args": "USER"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "id",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "id"
+                      },
+                      {
+                        "op": "value",
+                        "args": "hrefUserIcon"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 31,
+                  "title": 2,
+                  "id": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1300
+        ]
+      },
+      {
+        "id": "7214abe9-2b10-310a-5f4f-25ec46723751",
+        "name": "USER",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 2,
+            "id": "75102ca5-a51f-214e-a6c3-c8973ab53d5c"
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//a[@id=\"menuUserLink\"]/a)[1]",
+              "suggestion": [
+                "(//a[@id=\"menuUserLink\"]/a)[1]",
+                "(//a[@id=\"hrefUserIcon\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#hrefUserIcon",
+              "suggestion": [
+                "a#hrefUserIcon",
+                "a#menuUserLink>a"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#hrefUserIcon')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.6158008,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "A",
+                  "score": 0.01
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "hrefUserIcon",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "title",
+                  "value": "USER",
+                  "score": 0.3
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 3,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 11,
+                  "id": 1,
+                  "title": 3,
+                  "a/href": 21,
+                  "leaf": null
+                },
+                "secondaryScore": 0.128798712,
+                "totalCandidates": 3
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "A"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "title",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "title"
+                      },
+                      {
+                        "op": "value",
+                        "args": "USER"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 11,
+                  "title": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1300
+        ]
+      },
+      {
+        "id": "75102ca5-a51f-214e-a6c3-c8973ab53d5c",
+        "name": "ListBox(1)",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(/html/body/header/nav/ul)[1]",
+              "suggestion": [
+                "(/html/body/header/nav/ul)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "html>body>header>nav>ul",
+              "suggestion": [
+                "html>body>header>nav>ul"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('html>body>header>nav>ul')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.166915,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "UL",
+                  "score": 0.01
+                },
+                {
+                  "id": "class",
+                  "value": "roboto-light desktop-handler",
+                  "score": 0.15
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 10,
+                  "class": 7,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "UL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "contained",
+                    "active": true,
+                    "descriptor": "class",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "class"
+                      },
+                      {
+                        "op": "value",
+                        "args": [
+                          "roboto-light",
+                          "desktop-handler"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 10,
+                  "class": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          2602
+        ]
+      },
+      {
+        "id": "300f26af-d835-f8d8-e6fb-ebbb4f1b0696",
+        "name": "CREATE NEW ACCOUNT",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//a[text()=\"CREATE NEW ACCOUNT\"])[1]",
+              "suggestion": [
+                "(//a[text()=\"CREATE NEW ACCOUNT\"])[1]",
+                "(/html/body/login-modal/div/div/div[3]/a[2])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "html>body>login-modal>div>div>div:nth-of-type(3)>a:nth-of-type(2)",
+              "suggestion": [
+                "html>body>login-modal>div>div>div:nth-of-type(3)>a:nth-of-type(2)"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('html>body>login-modal>div>div>div:nth-of-type(3)>a:nth-of-type(2)')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.62011324,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "A",
+                  "score": 0.01
+                },
+                {
+                  "id": "role",
+                  "value": "link",
+                  "score": 0.05
+                },
+                {
+                  "id": "class",
+                  "value": "create-new-account ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "CREATE NEW ACCOUNT",
+                    "tagName": "A"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 6,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 31,
+                  "role": 38,
+                  "class": 73,
+                  "text": 1,
+                  "a/href": 35,
+                  "leaf": null
+                },
+                "secondaryScore": 0.36685173144600003,
+                "totalCandidates": 6
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "A"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "role",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "role"
+                      },
+                      {
+                        "op": "value",
+                        "args": "link"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "CREATE NEW ACCOUNT"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 31,
+                  "role": 16,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1300
+        ]
+      },
+      {
+        "id": "72c79ff9-4f85-c993-822a-2ce2ecf8b677",
+        "name": "Username",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"Username\"])[1]",
+              "suggestion": [
+                "(//label[text()=\"Username\"])[1]",
+                "(//div[@id=\"formCover\"]/div[1]/div[1]/sec-view[1]/div/label)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>label",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>label"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>label')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.47074600000000005,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Username",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 15,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.1179088209,
+                "totalCandidates": 15
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Username"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "5648d5c3-5856-31ff-3e45-3f8c64c1a00e",
+        "name": "*UsernameUsername",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"text\" and @name=\"usernameRegisterPage\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"text\" and @name=\"usernameRegisterPage\"])[1]",
+                "(//div[@id=\"formCover\"]/div[1]/div[1]/sec-view[1]/div/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>input",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.424414,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "usernameRegisterPage",
+                    "isValidWord": false
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope in-focus",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "text",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 12,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "class": 76,
+                  "input/type": 12,
+                  "leaf": null
+                },
+                "secondaryScore": 0.20057299425000003,
+                "totalCandidates": 12
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "usernameRegisterPage"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200
+        ]
+      },
+      {
+        "id": "7d585f33-874e-b357-a114-17b2b053de02",
+        "name": "Email",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"Email\"])[2]",
+              "suggestion": [
+                "(//label[text()=\"Email\"])[2]",
+                "(//div[@id=\"formCover\"]/div[1]/div[1]/sec-view[2]/div/label)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>label",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>label"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>label')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.47074600000000005,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Email",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 15,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 2,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.4707412925400001,
+                "totalCandidates": 15,
+                "similarPrimaryScore": 0.4707412925400001,
+                "similarSecondaryScore": 0.1179088209,
+                "similarTotal": 2,
+                "similarOrdinal": 2
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Email"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 2
+                },
+                "totalCandidates": 2,
+                "similarOrdinal": {
+                  "op": "value",
+                  "args": 2
+                }
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "a4de9846-9b9d-7906-0284-9345dfc2ae10",
+        "name": "*EmailEmail",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"text\" and @name=\"emailRegisterPage\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"text\" and @name=\"emailRegisterPage\"])[1]",
+                "(//div[@id=\"formCover\"]/div[1]/div[1]/sec-view[2]/div/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>input",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.49636225,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "emailRegisterPage",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope in-focus",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "text",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "class": 76,
+                  "input/type": 12,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "emailRegisterPage"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200
+        ]
+      },
+      {
+        "id": "3e93e967-1f80-0f86-37c0-1ba1d89a3339",
+        "name": "Password",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"Password\"])[2]",
+              "suggestion": [
+                "(//label[text()=\"Password\"])[2]",
+                "(//div[@id=\"formCover\"]/div[1]/div[2]/sec-view[1]/div/label)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(1)>div>label",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(1)>div>label"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(1)>div>label')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.47074600000000005,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Password",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 15,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 2,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.4707412925400001,
+                "totalCandidates": 15,
+                "similarPrimaryScore": 0.4707412925400001,
+                "similarSecondaryScore": 0.1179088209,
+                "similarTotal": 2,
+                "similarOrdinal": 2
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 2
+                },
+                "totalCandidates": 2,
+                "similarOrdinal": {
+                  "op": "value",
+                  "args": 2
+                }
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "4f6bd93b-a1f0-49a5-d7b4-da6227dc9769",
+        "name": "*PasswordPassword",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"password\" and @name=\"passwordRegisterPage\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"password\" and @name=\"passwordRegisterPage\"])[1]",
+                "(//div[@id=\"formCover\"]/div[1]/div[2]/sec-view[1]/div/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(1)>div>input",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(1)>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(1)>div>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.49636225,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "passwordRegisterPage",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope in-focus",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "password",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "class": 76,
+                  "input/type": 4,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "passwordRegisterPage"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200,
+          1600
+        ]
+      },
+      {
+        "id": "495298a2-3d06-38f7-03ea-c105c8d7e7f1",
+        "name": "Confirm password",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"Confirm password\"])[1]",
+              "suggestion": [
+                "(//label[text()=\"Confirm password\"])[1]",
+                "(//div[@id=\"formCover\"]/div[1]/div[2]/sec-view[2]/div/label)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(2)>div>label",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(2)>div>label"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(2)>div>label')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.47074600000000005,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Confirm password",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 15,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.1179088209,
+                "totalCandidates": 15
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Confirm password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "0dc65691-efb6-7385-35ca-93ac176ab1be",
+        "name": "*Confirm passwordConfirm...",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"password\" and @name=\"confirm_passwordRegisterPage\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"password\" and @name=\"confirm_passwordRegisterPage\"])[1]",
+                "(//div[@id=\"formCover\"]/div[1]/div[2]/sec-view[2]/div/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(2)>div>input",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(2)>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(1)>div:nth-of-type(2)>sec-view:nth-of-type(2)>div>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.49636225,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "confirm_passwordRegisterPage",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope in-focus",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "password",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "class": 76,
+                  "input/type": 4,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "confirm_passwordRegisterPage"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200,
+          1600
+        ]
+      },
+      {
+        "id": "97f9f184-d98c-4937-e55b-60ea479f7aa2",
+        "name": "First Name",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"First Name\"])[1]",
+              "suggestion": [
+                "(//label[text()=\"First Name\"])[1]",
+                "(//div[@id=\"formCover\"]/div[2]/div[1]/sec-view[1]/div/label)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>label",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>label"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>label')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.47074600000000005,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "First Name",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 15,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.1179088209,
+                "totalCandidates": 15
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "First Name"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "2282d8da-8006-e29b-5379-66b6d9e235f4",
+        "name": "First NameFirst Name",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"text\" and @name=\"first_nameRegisterPage\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"text\" and @name=\"first_nameRegisterPage\"])[1]",
+                "(//div[@id=\"formCover\"]/div[2]/div[1]/sec-view[1]/div/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>input",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(1)>div>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.49636225,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "first_nameRegisterPage",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope in-focus",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "text",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "class": 76,
+                  "input/type": 12,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "first_nameRegisterPage"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200
+        ]
+      },
+      {
+        "id": "6e6e498b-4d18-256b-dc82-7568e94fcb0a",
+        "name": "Last Name",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"Last Name\"])[1]",
+              "suggestion": [
+                "(//label[text()=\"Last Name\"])[1]",
+                "(//div[@id=\"formCover\"]/div[2]/div[1]/sec-view[2]/div/label)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>label",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>label"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>label')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.47074600000000005,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Last Name",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 15,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.1179088209,
+                "totalCandidates": 15
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Last Name"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "6b1d99ab-cf6c-b72b-6623-15986cd44ce4",
+        "name": "Last NameLast Name",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"text\" and @name=\"last_nameRegisterPage\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"text\" and @name=\"last_nameRegisterPage\"])[1]",
+                "(//div[@id=\"formCover\"]/div[2]/div[1]/sec-view[2]/div/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>input",
+              "suggestion": [
+                "div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>div:nth-of-type(2)>div:nth-of-type(1)>sec-view:nth-of-type(2)>div>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.49636225,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "last_nameRegisterPage",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope in-focus",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "text",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "class": 76,
+                  "input/type": 12,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "last_nameRegisterPage"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200
+        ]
+      },
+      {
+        "id": "7f4fedc3-2049-31f5-7bcf-dc582207340e",
+        "name": "I agree to the www.AdvantageOnlineShopping.com...",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//div[@id=\"formCover\"]/sec-view/div/input)[1]",
+              "suggestion": [
+                "(//div[@id=\"formCover\"]/sec-view/div/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#formCover>sec-view>div>input",
+              "suggestion": [
+                "div#formCover>sec-view>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#formCover>sec-view>div>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.61471712125,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "i_agree",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "checkbox",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "style/background-image",
+                  "value": {
+                    "bkImg": ""
+                  },
+                  "score": 0.15
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 3,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "class": 76,
+                  "input/type": 3,
+                  "leaf": null,
+                  "style/background-image": null,
+                  "position": null
+                },
+                "secondaryScore": 0.2137062736301786,
+                "totalCandidates": 3
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "i_agree"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "checkbox"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 19,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1800
+        ]
+      },
+      {
+        "id": "a54d43de-2ac4-a515-edf7-672e67063c4c",
+        "name": "REGISTER",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//button[text()=\"REGISTER\"])[1]",
+              "suggestion": [
+                "(//button[text()=\"REGISTER\"])[1]",
+                "(//section[@id=\"registerPage\"]/article/sec-form/div[2]/sec-sender/button)[1]",
+                "(//button[@id=\"register_btn\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "button#register_btn",
+              "suggestion": [
+                "button#register_btn",
+                "section#registerPage>article>sec-form>div:nth-of-type(2)>sec-sender>button"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('button#register_btn')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.6978173500000001,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "BUTTON",
+                  "score": 0.1
+                },
+                {
+                  "id": "role",
+                  "value": "button",
+                  "score": 0.05
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "register_btn",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "sec-sender-a ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "REGISTER",
+                    "tagName": "BUTTON"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 2,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 3,
+                  "role": 3,
+                  "id": 1,
+                  "class": 73,
+                  "text": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0.20057299425000003,
+                "totalCandidates": 2
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "BUTTON"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "role",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "role"
+                      },
+                      {
+                        "op": "value",
+                        "args": "button"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "REGISTER"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 3,
+                  "role": 3,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1000
+        ]
+      },
+      {
+        "id": "c214a51b-633e-96ed-31ee-0b73b123953a",
+        "name": "USER",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//a[@id=\"menuUserLink\"]/a)[1]",
+              "suggestion": [
+                "(//a[@id=\"menuUserLink\"]/a)[1]",
+                "(//a[@id=\"hrefUserIcon\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#hrefUserIcon",
+              "suggestion": [
+                "a#hrefUserIcon",
+                "a#menuUserLink>a"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#hrefUserIcon')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.6158008,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "A",
+                  "score": 0.01
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "hrefUserIcon",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "title",
+                  "value": "USER",
+                  "score": 0.3
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 7,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 31,
+                  "id": 1,
+                  "title": 6,
+                  "a/href": 35,
+                  "leaf": null
+                },
+                "secondaryScore": 0.39015609840000004,
+                "totalCandidates": 7
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "A"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "title",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "title"
+                      },
+                      {
+                        "op": "value",
+                        "args": "USER"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "id",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "id"
+                      },
+                      {
+                        "op": "value",
+                        "args": "hrefUserIcon"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 31,
+                  "title": 2,
+                  "id": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1300
+        ]
+      },
+      {
+        "id": "15b8d201-36bb-1546-4e51-a257ed2a6261",
+        "name": "USER",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//a[@id=\"menuUserLink\"]/a)[1]",
+              "suggestion": [
+                "(//a[@id=\"menuUserLink\"]/a)[1]",
+                "(//a[@id=\"hrefUserIcon\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#hrefUserIcon",
+              "suggestion": [
+                "a#hrefUserIcon",
+                "a#menuUserLink>a"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#hrefUserIcon')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.6158008,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "A",
+                  "score": 0.01
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "hrefUserIcon",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "title",
+                  "value": "USER",
+                  "score": 0.3
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 7,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 31,
+                  "id": 1,
+                  "title": 6,
+                  "a/href": 35,
+                  "leaf": null
+                },
+                "secondaryScore": 0.39015609840000004,
+                "totalCandidates": 7
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "A"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "title",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "title"
+                      },
+                      {
+                        "op": "value",
+                        "args": "USER"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "id",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "id"
+                      },
+                      {
+                        "op": "value",
+                        "args": "hrefUserIcon"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 31,
+                  "title": 2,
+                  "id": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1300
+        ]
+      },
+      {
+        "id": "c5aab1d1-ce6f-44a3-3621-80d2535c1d20",
+        "name": "USER",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 2,
+            "id": "75102ca5-a51f-214e-a6c3-c8973ab53d5c"
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//a[@id=\"menuUserLink\"]/a)[1]",
+              "suggestion": [
+                "(//a[@id=\"menuUserLink\"]/a)[1]",
+                "(//a[@id=\"hrefUserIcon\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#hrefUserIcon",
+              "suggestion": [
+                "a#hrefUserIcon",
+                "a#menuUserLink>a"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#hrefUserIcon')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.6158008,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "A",
+                  "score": 0.01
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "hrefUserIcon",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "title",
+                  "value": "USER",
+                  "score": 0.3
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 3,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 11,
+                  "id": 1,
+                  "title": 3,
+                  "a/href": 21,
+                  "leaf": null
+                },
+                "secondaryScore": 0.128798712,
+                "totalCandidates": 3
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "A"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "title",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "title"
+                      },
+                      {
+                        "op": "value",
+                        "args": "USER"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 11,
+                  "title": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1300
+        ]
+      },
+      {
+        "id": "4b04879a-7395-5e3b-4672-73e499709f24",
+        "name": "My account",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"My account\"])[2]",
+              "suggestion": [
+                "(//label[text()=\"My account\"])[2]",
+                "(//a[@id=\"menuUserLink\"]/div/label[1])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#menuUserLink>div>label:nth-of-type(1)",
+              "suggestion": [
+                "a#menuUserLink>div>label:nth-of-type(1)"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#menuUserLink>div>label:nth-of-type(1)')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.658101916,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "role",
+                  "value": "link",
+                  "score": 0.05
+                },
+                {
+                  "id": "class",
+                  "value": "option roboto-medium ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "My account",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "relative"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 6,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "role": 38,
+                  "class": 84,
+                  "text": 2,
+                  "a/href": 35,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.4301655583014,
+                "totalCandidates": 6
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "role",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "role"
+                      },
+                      {
+                        "op": "value",
+                        "args": "link"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "My account"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "role": 6,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          600,
+          1300,
+          1400
+        ]
+      },
+      {
+        "id": "57f7bd3a-30d9-d549-7435-03f94cd1df70",
+        "name": "My orders",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"My orders\"])[2]",
+              "suggestion": [
+                "(//label[text()=\"My orders\"])[2]",
+                "(//a[@id=\"menuUserLink\"]/div/label[2])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#menuUserLink>div>label:nth-of-type(2)",
+              "suggestion": [
+                "a#menuUserLink>div>label:nth-of-type(2)"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#menuUserLink>div>label:nth-of-type(2)')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.658101916,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "role",
+                  "value": "link",
+                  "score": 0.05
+                },
+                {
+                  "id": "class",
+                  "value": "option ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "My orders",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "relative"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 6,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "role": 38,
+                  "class": 74,
+                  "text": 2,
+                  "a/href": 35,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.4301655583014,
+                "totalCandidates": 6
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "role",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "role"
+                      },
+                      {
+                        "op": "value",
+                        "args": "link"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "My orders"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "role": 6,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          600,
+          1300,
+          1400
+        ]
+      },
+      {
+        "id": "da1a153e-4ce5-669a-6d53-a312f3fa2159",
+        "name": "Sign out",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//label[text()=\"Sign out\"])[2]",
+              "suggestion": [
+                "(//label[text()=\"Sign out\"])[2]",
+                "(//a[@id=\"menuUserLink\"]/div/label[3])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "a#menuUserLink>div>label:nth-of-type(3)",
+              "suggestion": [
+                "a#menuUserLink>div>label:nth-of-type(3)"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('a#menuUserLink>div>label:nth-of-type(3)')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.658101916,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "role",
+                  "value": "link",
+                  "score": 0.05
+                },
+                {
+                  "id": "class",
+                  "value": "option roboto-medium ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Sign out",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "a/href",
+                  "value": {
+                    "url": "javascript:void()",
+                    "protocol": "javascript:",
+                    "host": "",
+                    "pathname": "/",
+                    "search": ""
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "relative"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 6,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 35,
+                  "role": 38,
+                  "class": 84,
+                  "text": 2,
+                  "a/href": 35,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.4301655583014,
+                "totalCandidates": 6
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "role",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "role"
+                      },
+                      {
+                        "op": "value",
+                        "args": "link"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Sign out"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 35,
+                  "role": 6,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          600,
+          1300,
+          1400
+        ]
+      }
+    ]
+  }
+}
